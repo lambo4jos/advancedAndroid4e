@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Use Service</string>
+    <string name="remote_use_of_remote_service">Remote use of remote service</string>
+    <string name="do_it">Do it</string>
+    <string name="stop_it">Stop it</string>
+    <string name="last_location">Last Location</string>
+
+</resources>

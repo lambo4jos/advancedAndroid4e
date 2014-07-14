@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.advancedandroidbook.simplenetworking"
+    android:versionCode="2"
+    android:versionName="1.1" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="false"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name" >
+        <activity
+            android:name=".SimpleNetworkingActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="FlickrActivity1" />
+        <activity android:name="FlickrActivity2" />
+        <activity android:name="FlickrActivity3" />
+        <activity android:name="FlickrActivity4" />
+        <activity android:name="FlickrActivity5" />
+        <activity android:name="NetworkStatusCheckActivity" />
+        <activity android:name="NetworkReadBytesActivity" />
+    </application>
+
+</manifest>

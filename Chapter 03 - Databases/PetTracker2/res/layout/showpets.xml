@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/your_pets"
+        android:textColor="#0f0"
+        android:textSize="11pt" />
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayoutHeader"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="?android:attr/listPreferredItemHeight"
+            android:layout_alignParentLeft="true"
+            android:text="@string/pet_name"
+            android:textColor="#f00" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="?android:attr/listPreferredItemHeight"
+            android:layout_alignParentRight="true"
+            android:text="@string/pet_type"
+            android:textColor="#f00" />
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/petList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:divider="#000"
+        android:headerDividersEnabled="true"
+        android:isScrollContainer="true"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        android:scrollbars="vertical" />
+
+    <Button
+        android:id="@+id/ButtonEnterMorePets"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/add_more_pets" />
+
+</LinearLayout>

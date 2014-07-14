@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/help" />
+    <Button
+        android:id="@+id/ButtonRecord"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="recordSpeech"
+        android:text="@string/button_record" />
+    <TextView
+        android:id="@+id/TextSaid"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="@string/recorded_text"
+        android:lines="5"
+        android:textColor="#ff0"
+        android:textSize="18sp" />
+    <Button
+        android:id="@+id/ButtonRead"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:onClick="readText"
+        android:text="@string/button_read" />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/try_help" />
+    <EditText
+        android:id="@+id/editTextField"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textCapSentences" />
+</LinearLayout>

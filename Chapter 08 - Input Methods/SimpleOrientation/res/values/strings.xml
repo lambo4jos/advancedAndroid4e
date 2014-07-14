@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="orientation_status">Orientation is:\n%1$s.</string>
+	<string name="app_name">Simple Orientation</string>
+
+	<string name="s90">Left side of device pointing up</string>
+	<string name="s180">Bottom of device pointing up</string>
+	<string name="s270">Right side of device pointing up</string>
+	<string name="s0">Top of device pointing up</string>
+	<string name="unknown">Device is flat (orientation unknown)</string>
+
+</resources>

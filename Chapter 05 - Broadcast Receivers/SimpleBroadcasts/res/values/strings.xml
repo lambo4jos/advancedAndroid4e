@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="prompt">Click the button to send a Broadcast:</string>
+    <string name="app_name">SimpleBroadcasts</string>
+    <string name="buttonBroadcast">Broadcast!</string>
+</resources>

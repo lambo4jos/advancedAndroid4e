@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayout01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/Button01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onBasicCall"
+            android:text="@string/basic_call" >
+        </Button>
+
+        <Button
+            android:id="@+id/Button03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Button01"
+            android:onClick="onExceptional"
+            android:text="@string/throws_exception" >
+        </Button>
+
+        <Button
+            android:id="@+id/Button06"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Button01"
+            android:layout_toRightOf="@+id/Button03"
+            android:onClick="onCatches"
+            android:text="@string/catches_exception" >
+        </Button>
+
+        <Button
+            android:id="@+id/Button02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/Button01"
+            android:onClick="onBasicWithParams"
+            android:text="@string/with_params" >
+        </Button>
+    </RelativeLayout>
+
+</ScrollView>

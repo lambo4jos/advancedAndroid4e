@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Simple Search Provider</string>
+    <string name="search_hint">Search Simple Searchable data</string>
+    <string name="search_settings_help">Search SimpleFieldnotes App</string>
+    <string name="menu_search">Search</string>
+    <string name="load_db_data">Load db data. Try the search button. Enable this app in global search settings for Quick Search Box integration.</string>
+    <string name="reset_data">Reset Data</string>
+    <string name="force_search">Force Search</string>
+    <string name="device_search_settings">Device Search Settings</string>
+</resources>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal"
+        android:text="@string/prompt"
+        android:textSize="16pt" />
+    <Button
+        android:id="@+id/buttonRed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:onClick="onClickRedButton"
+        android:text="@string/buttonRed"
+        android:textSize="12pt" />
+    <Button
+        android:id="@+id/buttonBlue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:onClick="onClickBlueButton"
+        android:text="@string/buttonBlue"
+        android:textSize="12pt" />
+    <Button
+        android:id="@+id/buttonDie1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/buttonBlue"
+        android:layout_alignParentRight="true"
+        android:onClick="onClickDie1Button"
+        android:text="@string/buttonDie1"
+        android:textSize="12pt" />
+    <Button
+        android:id="@+id/buttonDie2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/buttonRed"
+        android:onClick="onClickDie2Button"
+        android:text="@string/buttonDie2"
+        android:textSize="12pt" />
+    <Button
+        android:id="@+id/buttonBuy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:onClick="onClickBuyButton"
+        android:text="@string/buttonBuy"
+        android:textSize="12pt" />
+</RelativeLayout>

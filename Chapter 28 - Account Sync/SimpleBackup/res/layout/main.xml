@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/LinearLayoutInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/EditText_AppData"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LinearLayout01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/Button_SaveData"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="saveData"
+            android:text="@string/button_label" />
+
+        <Button
+            android:id="@+id/Button_LoadData"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="loadData"
+            android:text="@string/load_prefs_and_file_data" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LinearLayoutButtons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/Button_Backup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:onClick="performBackup"
+            android:text="@string/backup_label" />
+
+        <Button
+            android:id="@+id/Button_Restore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:onClick="performRestore"
+            android:text="@string/restore_label" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/current_data"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/curData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp" />
+
+</LinearLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/message" />
+    <EditText
+        android:id="@+id/txt_input"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/textHint"
+        android:inputType="text" />
+    <Button
+        android:id="@+id/button_bad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="myBadButtonClickHandler"
+        android:text="@string/MainThreadButtonLabel" />
+    <Button
+        android:id="@+id/button_good"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="myServiceButtonClickHandler"
+        android:text="@string/IntentServiceButtonLabel" />
+    <TextView
+        android:id="@+id/txt_result"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

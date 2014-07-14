@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Simple Speech</string>
+    <string name="help">Press the Record Speech button to leverage speech recognition (if available) to translate speech to text. Read the text back using Text-To-Speech (TTS) when available.</string>
+    <string name="button_record">Record Speech</string>
+    <string name="recorded_text">(Recorded text will display here)</string>
+    <string name="button_read">Read Text Aloud</string>
+    <string name="try_help">Try the speech button on the Android keyboard:</string>
+</resources>

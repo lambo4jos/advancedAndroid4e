@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    <Button
+        android:id="@+id/buttonThread"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClickThreadButton"
+        android:text="@string/threadex" />
+    <Button
+        android:id="@+id/buttonAsync"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClickAsyncButton"
+        android:text="@string/asyncex" />
+    <Button
+        android:id="@+id/buttonAsyncM"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClickMultiAsyncButton"
+        android:text="@string/asyncexm" />
+</LinearLayout>

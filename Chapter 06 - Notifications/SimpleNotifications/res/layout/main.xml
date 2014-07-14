@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/pick_a_notification" />
+
+    <Button
+        android:id="@+id/notify1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/notify_1_text" />
+
+    <Button
+        android:id="@+id/notify2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/notify_2_vibrate" />
+
+    <Button
+        android:id="@+id/notify3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/notify_3_led" />
+
+    <Button
+        android:id="@+id/notify4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/notify_4_noise" />
+
+    <Button
+        android:id="@+id/notifyRemote"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/notify_remote_view" />
+
+    <Button
+        android:id="@+id/notifyExpand"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/notify_expand" />
+    
+</LinearLayout>

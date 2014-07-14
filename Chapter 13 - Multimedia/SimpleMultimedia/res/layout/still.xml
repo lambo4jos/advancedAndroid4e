@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/camera_record_press_appropriate_button" />
+
+    <Button
+        android:id="@+id/capture"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/save_as_local_file" />
+
+    <Button
+        android:id="@+id/wallpaper"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/set_as_wallpaper" />
+
+    <Button
+        android:id="@+id/shared"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/save_to_shared_library" />
+
+    <FrameLayout
+        android:id="@+id/frame"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

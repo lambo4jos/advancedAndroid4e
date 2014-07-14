@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Simple Networking</string>
+    <string name="instruct">Press button to get started</string>
+    <string name="button_label">Go!</string>
+</resources>

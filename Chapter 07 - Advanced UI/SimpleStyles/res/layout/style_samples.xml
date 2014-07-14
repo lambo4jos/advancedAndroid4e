@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <TextView
+        style="@style/padded_small"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/small_padded" />
+    <TextView
+        style="@style/padded_xlarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/big_" />
+    <TextView
+        style="@style/padded_normal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/normal_w_parent_color" />
+    <TextView
+        style="@style/padded_italics"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/italic_w_parent_color" />
+    <TextView
+        style="@style/glow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/glow_" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/normal" />
+</LinearLayout>

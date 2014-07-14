@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Simple Telephony</string>
+    <string name="enter_phone_number">Enter phone number:</string>
+    <string name="phone_number">Phone number</string>
+    <string name="call">Call</string>
+    <string name="keep_it_short">Keep it short</string>
+    <string name="send">Send</string>
+    <string name="see_logcat_output_for_phone_status_details">See logcat output for phone status details</string>
+    <string name="enter_phone_number_will_be_formatted">Enter phone number (will be formatted):</string>
+
+</resources>

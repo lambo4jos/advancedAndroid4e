@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Simple Notifications</string>
+    <string name="pick_a_notification">Pick a notification</string>
+    <string name="notify_1_text">Notify 1 - text</string>
+    <string name="notify_2_vibrate">Notify 2 - vibrate</string>
+    <string name="notify_3_led">Notify 3 - LED</string>
+    <string name="notify_4_noise">Notify 4 - noise</string>
+    <string name="notify_remote_view">Notify - Remote View</string>
+    <string name="notify_expand">Notify - Expand</string>
+</resources>

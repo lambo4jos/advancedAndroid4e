@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="pet_name">Pet Name:</string>
+    <string name="app_name">Pet Tracker</string>
+<string name="pet_type">Pet Species</string>
+<string name="pet_actions">Actions</string>
+<string name="add_more_pets">Add More Pets</string>
+<string name="your_pets">Your Pets</string>
+<string name="enter_data_about_your_pet">Enter Data about your Pet</string>
+<string name="pet_species">Pet Species:</string>
+<string name="save">Save</string>
+<string name="show_all_pets">Show All Pets</string>
+</resources>

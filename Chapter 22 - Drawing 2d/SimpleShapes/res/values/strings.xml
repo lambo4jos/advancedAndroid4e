@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string
+		name="app_name">Simple Shapes</string>
+	
+	
+	<string
+		name="shapes">Shapes Example</string>
+	
+	
+	<string name="line">Line</string>
+	
+	
+	<string name="oval">Oval</string>
+	
+	
+	<string name="rectangle">Rectangle</string>
+	
+	
+	<string name="path">Path</string>
+	
+	
+	<string name="arc">Arc</string>
+	
+	
+	<string name="rnd_rect">Rnd Rect</string>
+	
+	
+	<string name="rnd_rect_2">Rnd Rect 2</string>
+	
+	
+	<string name="path_2">Path 2</string>
+	
+	
+	<string name="path_3">Path 3</string>
+	
+	
+	<string name="image_view_for_shape">Image view for shape</string>
+</resources>

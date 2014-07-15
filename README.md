@@ -15,4 +15,8 @@ Or you could issue the following command from a command line to get the code.
 
 `git clone https://github.com/lambo4jos/advancedAndroid4e.git`
 
+For the `Chapter 17 - Location and Maps` project `SimpleLocation` and for the `Chapter 20 - Analytics` project `SimpleStats`, make sure to configure the `google-play-services_lib` project found within the directory `../<path_to_sdk>/extras/google/google_play_services/libproject/`
+
+For the `Chapter 07 - Advanced UI` project `SimpleActionBars`, make sure to configure the `android-support-v7-appcompat` project found within the directory `../<path_to_sdk>/extras/android/support/v7/`
+
 Happy learning!

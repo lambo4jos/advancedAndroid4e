@@ -13,7 +13,6 @@ import com.google.android.gms.analytics.HitBuilders.TransactionBuilder;
 import com.google.android.gms.analytics.HitBuilders.ItemBuilder;
 import com.google.android.gms.analytics.GoogleAnalytics;
 
-;
 
 public class SimpleStatsActivity extends Activity {
 

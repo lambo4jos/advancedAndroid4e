@@ -17,6 +17,8 @@ import android.widget.TextView;
 public class ServiceControlActivity extends Activity implements
         ServiceConnection {
     IRemoteInterface mRemoteInterface = null;
+    
+    // Flag to keep track of bound status
     private boolean mIsBound;
 
     @Override

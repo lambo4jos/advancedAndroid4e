@@ -17,7 +17,7 @@ import android.widget.TextView;
 public class ServiceControlActivity extends Activity implements
         ServiceConnection {
     IRemoteInterface mRemoteInterface = null;
-    
+
     // Flag to keep track of bound status
     private boolean mIsBound;
 
@@ -35,6 +35,10 @@ public class ServiceControlActivity extends Activity implements
                 service.setPackage("com.advancedandroidbook.simpleservice");
                 service.putExtra(GPXService.EXTRA_UPDATE_RATE, 5000);
                 startService(service);
+                if (!mIsBound) {
+                    // Toggle service binding flag
+                    mIsBound = true;
+                }
             }
         });
 

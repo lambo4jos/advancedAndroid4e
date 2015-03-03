@@ -35,10 +35,6 @@ public class ServiceControlActivity extends Activity implements
                 service.setPackage("com.advancedandroidbook.simpleservice");
                 service.putExtra(GPXService.EXTRA_UPDATE_RATE, 5000);
                 startService(service);
-                if (!mIsBound) {
-                    // Toggle service binding flag
-                    mIsBound = true;
-                }
             }
         });
 
@@ -110,7 +106,7 @@ public class ServiceControlActivity extends Activity implements
         Intent intent = new Intent(IRemoteInterface.class.getName());
         intent.setPackage("com.advancedandroidbook.simpleservice");
         bindService(intent, this, Context.BIND_AUTO_CREATE);
-        mIsBound = false;
+        mIsBound = true;
     }
 
     @Override

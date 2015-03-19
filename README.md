@@ -6,7 +6,7 @@ Hosted by Joseph Annuzzi, Jr.
 ATTENTION:
 ========
 
-At the time of writing, these code samples were written for the Eclipse ADT Bundle (Android IDE) because Android Studio was not the official IDE yet.  I have included additional code samples to work with Android Studio, so you will find both Android Eclipse code samples and Android Studio code samples.  Support for the Android Studio code samples will be extremely limited due to these code samples not being covered in the content of Fourth Edition book.  However, I wanted to provide these as a reference so that readers would be able to see how these same exact code samples work in Android Studio.
+At the time of writing, these code samples were written for the Eclipse ADT Bundle (Android IDE) because Android Studio was not the official IDE yet.  I have included additional code samples to work with Android Studio, so you will find both Eclipse code samples and Android Studio code samples.  Support for the Android Studio code samples will be extremely limited due to these code samples not being covered in the content of Fourth Edition book.  However, I wanted to provide these as a reference so that readers would be able to see how these same exact code samples work in Android Studio.
 
 Welcome
 ========

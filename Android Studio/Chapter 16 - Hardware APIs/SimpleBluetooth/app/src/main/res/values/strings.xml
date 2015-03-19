@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="title">Simple Bluetooth Fun</string>
+    <string name="app_name">Simple Bluetooth</string>
+    <string name="ping">Ping!</string>
+    <string name="marco">Marco!</string>
+    <string name="connect">Connect!</string>
+    <string name="status_area">Status will show here.</string>
+    <string name="bt_toggle">Toggle BT</string>
+    <string name="cancel">Cancel</string>
+    <string name="pick_device">Pick a remote device:</string>
+</resources>

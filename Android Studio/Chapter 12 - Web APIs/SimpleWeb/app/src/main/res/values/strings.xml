@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Simple Web</string>
+    <string name="url_hint">Enter new url…</string>
+    <string name="button_label_go">Go!</string>
+</resources>

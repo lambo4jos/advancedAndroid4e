@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Simple Async Example</string>
+    <string name="threadex">Thread Example</string>
+    <string name="asyncex">AsyncTask Example</string>
+    <string name="asyncexm">AsyncTask MultiCore Example</string>
+</resources>

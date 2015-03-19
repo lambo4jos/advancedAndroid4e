@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- app_name -->
+    <string name="app_name">Simple Location</string>
+    <!--  -->
+    <string name="enter_address_or_place_name">Enter Address or place name</string>
+    <!-- name -->
+    <string name="name">Name</string>
+    <!-- geo_code -->
+    <string name="geo_code">Geo Code</string>
+    <!-- get_loc -->
+    <string name="get_loc">Get Location</string>
+    <!-- map -->
+    <string name="map">Map</string>
+    <!-- results_here -->
+    <string name="results_here">&#8230; results here &#8230;</string>
+    <!-- location_info -->
+    <string name="location_info">Location Info</string>
+    <!-- start -->
+    <string name="start">Start</string>
+    <!-- stop -->
+    <string name="stop">Stop</string>
+    <!-- show_map -->
+    <string name="show_map">Show Map</string>
+    <!-- data_will_go_here -->
+    <string name="data_will_go_here">&#8230; data will go here &#8230;</string>
+
+</resources>

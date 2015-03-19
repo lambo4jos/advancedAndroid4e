@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="buttonRed">RED</string>
+    <string name="app_name">Simple Stats</string>
+    <string name="buttonBlue">BLUE</string>
+    <string name="prompt">Choose a color:</string>
+    <string name="buttonBuy">Buy Stuff</string>
+    <string name="buttonDie1">Click-N-Dead One</string>
+    <string name="buttonDie2">Click-N-Dead Two</string>
+</resources>

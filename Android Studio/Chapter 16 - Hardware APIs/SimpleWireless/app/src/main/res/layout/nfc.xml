@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    <TextView
+        android:id="@+id/status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#cccccccc"
+        android:padding="13dp"
+        android:textColor="#333333"
+        android:textSize="25sp" />
+    <EditText
+        android:id="@+id/messageToBeam"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:hint="@string/enter_a_message_"
+        android:padding="9dp"
+        android:textSize="17sp" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onNFCSettingsClick"
+        android:text="@string/nfc_settings" />
+</RelativeLayout>

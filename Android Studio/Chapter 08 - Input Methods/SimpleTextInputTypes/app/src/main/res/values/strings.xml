@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Try typing in the various EditText Controls</string>
+    <string name="app_name">Simple Text Input Types</string>
+    <string name="text_textcapcharacters">text|textCapCharacters</string>
+    <string name="text_textemailaddress">text|textEmailAddress</string>
+    <string name="number">number</string>
+    <string name="phone">phone</string>
+    <string name="datetime">datetime</string>
+    <string name="text_textcapsentences_textmultiline">text|textCapSentences|textMultiLine</string>
+    <string name="text_textpassword">text|textPassword</string>
+</resources>

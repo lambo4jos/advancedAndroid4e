@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:ordering="together" >
+    <objectAnimator
+        android:duration="2500"
+        android:propertyName="alpha"
+        android:repeatCount="-1"
+        android:repeatMode="reverse"
+        android:valueFrom="0"
+        android:valueTo="1"
+        android:valueType="floatType" />
+    <!-- Can't set argb valueType in XML; set in code for the following animator -->
+    <objectAnimator
+        android:duration="7500"
+        android:propertyName="backgroundColor"
+        android:repeatCount="-1"
+        android:repeatMode="reverse"
+        android:valueFrom="#2E0854"
+        android:valueTo="#BF5FFF" />
+</set>

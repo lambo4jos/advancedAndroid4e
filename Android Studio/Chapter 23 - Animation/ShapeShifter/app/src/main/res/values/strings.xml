@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string
+		name="app_name">Shape Shifter</string>
+	<string
+		name="tween">Tweened Animation Example</string>
+	<string
+		name="framebyframe">Frame-By-Frame Animation Example</string>
+	<string name="layouts_and_any_views_can_use_tweening">Layouts and any views can use tweening</string>
+	<string name="some_text">Some Text</string>
+	<string name="more_text">More Text</string>
+	<string name="last_text">Last Text</string>
+	<string name="go">Go</string>
+	<string name="fade">Fade</string>
+	<string name="grow">Grow</string>
+	<string name="move">Move</string>
+	<string name="spin">Spin</string>
+	<string name="all">All</string>
+	<string name="image_view_for_tweening">Image View For Tweening</string>
+	<string name="start">Start</string>
+	<string name="stop">Stop</string>
+	<string name="image_view_juggle">Image View Juggle</string>
+	
+</resources>

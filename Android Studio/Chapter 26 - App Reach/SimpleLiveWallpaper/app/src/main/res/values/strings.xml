@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, SimpleLiveWallpaperMenuActivity!</string>
+    <string name="app_name">Simple Live Wallpaper</string>
+<string name="wallpaper_name">Simple Live Wallpaper</string>
+<string name="wallpaper_desc">The Android bounces around on the screen &amp; changes direction on key presses.</string>
+</resources>

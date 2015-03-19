@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:text="@string/title"
+        android:id="@+id/title" />
+    <TextView
+        android:layout_height="wrap_content"
+        android:id="@+id/output_display"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:text="@string/status_area"
+        android:layout_below="@+id/ping"></TextView>
+    <ToggleButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:text="@string/bt_toggle"
+        android:id="@+id/bt_toggle"
+        android:onClick="doToggleBT"></ToggleButton>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/bt_toggle"
+        android:layout_below="@+id/title"
+        android:text="@string/connect"
+        android:id="@+id/connect"
+        android:onClick="doConnectBT"></Button>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ping"
+        android:id="@+id/ping"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/connect"
+        android:onClick="doSendPing"></Button>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/marco"
+        android:text="@string/marco"
+        android:layout_toRightOf="@+id/ping"
+        android:layout_below="@+id/connect"
+        android:onClick="doSendMarco"></Button>
+</RelativeLayout>

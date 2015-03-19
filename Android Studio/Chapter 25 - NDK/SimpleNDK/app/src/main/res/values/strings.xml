@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SimpleNDK</string>
+    <string name="basic_call">Basic Call</string>
+    <string name="throws_exception">Throws Exception</string>
+    <string name="catches_exception">Catches Exception</string>
+    <string name="with_params">With Params</string>
+</resources>

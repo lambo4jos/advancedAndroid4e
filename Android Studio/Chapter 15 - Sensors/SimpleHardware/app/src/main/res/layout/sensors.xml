@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true" >
+
+        <Button
+            android:id="@+id/start_sensor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/start_sensor" />
+
+        <Button
+            android:id="@+id/stop_sensor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/stop_sensor"
+            android:visibility="gone" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/status"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="right"
+        android:layout_margin="10dp"
+        android:gravity="right"
+        android:text="@string/_data_will_go_here_" />
+
+    <ScrollView
+        android:id="@+id/sensor_button_group"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/status"
+        android:layout_alignParentTop="true" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sensors_info" />
+
+            <RadioGroup
+                android:id="@+id/sensor_group"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <RadioButton
+                    android:id="@+id/sensor_accel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/accelerometer" />
+
+                <RadioButton
+                    android:id="@+id/sensor_gravity"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/gravity_api_9_" />
+
+                <RadioButton
+                    android:id="@+id/sensor_linear_accel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/linear_acceleration_api_9_" />
+
+                <RadioButton
+                    android:id="@+id/sensor_mag"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/magnetic" />
+
+                <RadioButton
+                    android:id="@+id/sensor_orient"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/orientation_deprecated_api_8_" />
+
+                <RadioButton
+                    android:id="@+id/sensor_gyro"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/gyroscope_api_9_" />
+
+                <RadioButton
+                    android:id="@+id/sensor_rot_vector"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/rotation_vector_api_9_" />
+
+                <RadioButton
+                    android:id="@+id/sensor_light"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/light" />
+
+                <RadioButton
+                    android:id="@+id/sensor_prox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/proximity" />
+
+                <RadioButton
+                    android:id="@+id/sensor_pressure"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/pressure_api_9_" />
+
+                <RadioButton
+                    android:id="@+id/sensor_rel_humid"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/relative_humidity_api_14_" />
+
+                <RadioButton
+                    android:id="@+id/sensor_ambient_temp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ambient_temp_api_14_" />
+                
+                <RadioButton
+                    android:id="@+id/sensor_step_detector"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/step_detector_api_19_" />
+
+                <RadioButton
+                    android:id="@+id/sensor_step_counter"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/step_counter_api_19_" />
+
+                <RadioButton
+                    android:id="@+id/sensor_temp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/temperature_deprecated_api_14_" />
+            </RadioGroup>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

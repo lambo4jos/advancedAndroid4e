@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Simple Intent Service Example</string>
+    <string name="message">Enter some text and then press one of the buttons to demonstrate how IntentService works</string>
+    <string name="IntentServiceButtonLabel">Dispatch to IntentService (Good Design)</string>
+    <string name="MainThreadButtonLabel">Run on Main UI Thread (Bad Design)</string>
+    <string name="textHint">Enter some text</string>
+</resources>

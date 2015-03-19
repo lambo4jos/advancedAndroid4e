@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Simple App Widget</string>
+    <string name="tl_title">Threat Level</string>
+    <string name="message_format">Current Threat Level is %1$s, which was last updated at %2$s.</string>
+    <string name="request_update">Check Threat Level</string>
+    <string name="widget_desc">Security Threat Level AppWidget</string>
+    <string name="threat_levels_image">Threat levels image</string>
+
+</resources>

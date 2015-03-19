@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/load_db_data" />
+
+    <Button
+        android:id="@+id/reset_data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onResetData"
+        android:text="@string/reset_data" />
+
+    <Button
+        android:id="@+id/req_search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onForceSearch"
+        android:text="@string/force_search" />
+
+    <Button
+        android:id="@+id/search_settings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onLaunchGlobalSearchSettings"
+        android:text="@string/device_search_settings" />
+
+</LinearLayout>

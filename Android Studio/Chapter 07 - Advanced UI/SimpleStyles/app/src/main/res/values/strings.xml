@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Simple Styles</string>
+    <string name="small_padded">Small Padded</string>
+    <string name="big_">Big!</string>
+    <string name="normal_w_parent_color">Normal w/parent color</string>
+    <string name="italic_w_parent_color">Italic w/parent color</string>
+    <string name="glow_">Glow!</string>
+    <string name="normal">normal</string>
+    <string name="mandatory_field">Mandatory Field</string>
+    <string name="must_type_here">Must Type Here</string>
+    <string name="optional_field_">Optional Field:</string>
+    <string name="can_type_here">Can Type Here</string>
+</resources>

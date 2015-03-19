@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Optional Hardware Samples</string>
+    <string name="start_sensor">Start Sensor</string>
+    <string name="stop_sensor">Stop Sensor</string>
+    <string name="_data_will_go_here_">&#8230; data will go here &#8230;</string>
+    <string name="sensors_info">Sensors Info</string>
+    <string name="accelerometer">Accelerometer</string>
+    <string name="gravity_api_9_">Gravity (API 9+)</string>
+    <string name="linear_acceleration_api_9_">Linear Acceleration (API 9+)</string>
+    <string name="magnetic">Magnetic</string>
+    <string name="orientation_deprecated_api_8_">Orientation (Deprecated API 8+)</string>
+    <string name="gyroscope_api_9_">Gyroscope (API 9+)</string>
+    <string name="light">Light</string>
+    <string name="proximity">Proximity</string>
+    <string name="pressure_api_9_">Pressure (API 9+)</string>
+    <string name="relative_humidity_api_14_">Relative Humidity (API 14+)</string>
+    <string name="ambient_temp_api_14_">Ambient Temp (API 14+)</string>
+    <string name="temperature_deprecated_api_14_">Temperature (Deprecated API 14)</string>
+    <string name="step_detector_api_19_">Step Detector (API 19+)</string>
+    <string name="step_counter_api_19_">Step Counter (API 19+)</string>
+    <string name="rotation_vector_api_9_">Rotation Vector (API 9+)</string>
+    <string name="battery_info">Battery Info</string>
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+    <string name="battery_level_indicator_icon">Battery level indicator icon</string>
+</resources>

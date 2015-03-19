@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, Simple Drawing</string>
+    <string name="app_name">Simple Drawing</string>
+    <string name="bitmap">Bitmap</string>
+    <string name="text">Text</string>
+    <string name="gradients">Gradients</string>
+    <string name="shapes">Shapes</string>
+    <string name="chess_font">Chess Font</string>
+
+</resources>

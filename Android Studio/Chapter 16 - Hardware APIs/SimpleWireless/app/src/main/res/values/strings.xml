@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="title">Simple Bluetooth Fun</string>
+    <string name="app_name">Simple Wireless</string>
+    <string name="ping">Ping!</string>
+    <string name="marco">Marco!</string>
+    <string name="connect">Connect!</string>
+    <string name="status_area">Status will show here.</string>
+    <string name="bt_toggle">Toggle BT</string>
+    <string name="cancel">Cancel</string>
+    <string name="pick_device">Pick a remote device:</string>
+    <string name="enter_a_message_">Enter a message&#8230;</string>
+    <string name="nfc_settings">NFC Settings</string>
+    <string name="wifi_info">WiFi Info</string>
+    <string name="scan_for_wifi">Scan for WiFi</string>
+    <string name="stop_scan">Stop Scan</string>
+    <string name="list_known_wifi">List Known WiFi</string>
+    <string name="_data_will_go_here_">&#8230; data will go here &#8230;</string>
+</resources>

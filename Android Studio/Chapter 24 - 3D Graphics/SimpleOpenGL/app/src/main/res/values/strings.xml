@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="app_name">Simple OpenGL Example</string>
+    
+    
+    <string name="filler_text">Filler Text</string>
+    
+    <string name="filler_button">Filler Button</string>
+</resources>

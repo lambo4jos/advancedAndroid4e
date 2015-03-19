@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/remote_use_of_remote_service" />
+
+    <Button
+        android:id="@+id/go"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/do_it" />
+
+    <Button
+        android:id="@+id/stop"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/stop_it" />
+
+    <Button
+        android:id="@+id/get_last"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/last_location"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/status"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

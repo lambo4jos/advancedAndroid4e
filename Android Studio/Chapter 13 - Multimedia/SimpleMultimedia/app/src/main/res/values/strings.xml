@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- hello -->
+    <string name="hello">Hello World, SimpleMultimediaActivity!</string>
+    <!-- app_name -->
+    <string name="app_name">Simple Multimedia</string>
+    <!-- audio_record -->
+    <string name="audio_record">Audio Record</string>
+    <!-- example_description -->
+    <string name="example_description">This example will record and play back an audio file called audio.mp4, which is located under the Files subdirectory of the application.</string>
+    <!-- start_record -->
+    <string name="start_record">Start Record</string>
+    <!-- stop_record -->
+    <string name="stop_record">Stop Record</string>
+    <!-- play -->
+    <string name="play">Play</string>
+    <!-- stop -->
+    <string name="stop">Stop</string>
+    <!-- video_playback -->
+    <string name="video_playback">Video Playback</string>
+    <!-- multimedia_search_intent -->
+    <string name="multimedia_search_intent">Multimedia Search Intent</string>
+    <!-- this_example_will_search_for_media_ -->
+    <string name="this_example_will_search_for_media_">This example will search for media.</string>
+    <!-- search -->
+    <string name="search">Search</string>
+    <!-- camera_record_press_appropriate_button -->
+    <string name="camera_record_press_appropriate_button">Camera Record, press appropriate button</string>
+    <!-- save_as_local_file -->
+    <string name="save_as_local_file">Save as local file</string>
+    <!-- set_as_wallpaper -->
+    <string name="set_as_wallpaper">Set as Wallpaper</string>
+    <!-- save_to_shared_library -->
+    <string name="save_to_shared_library">Save to shared library</string>
+    <!-- this_example_will_record_a_video_file_called_video_mp4_ -->
+    <string name="this_example_will_record_a_video_file_called_video_mp4_">This example will record a video file called video.mp4.</string>
+</resources>

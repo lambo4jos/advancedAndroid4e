@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <style name="hello_text_style" parent="android:Widget.TextView">
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">#000</item>
+        <item name="android:typeface">serif</item>
+        <item name="android:textSize">64sp</item>
+    </style>
+</resources>

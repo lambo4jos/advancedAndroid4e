@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item
+        android:id="@+id/sweep"
+        android:icon="@drawable/ic_menu_sweep"
+        android:onClick="onOptionSweep"
+        android:showAsAction="ifRoom|withText"
+        android:title="@string/sweep"/>
+    <item
+        android:id="@+id/scrub"
+        android:icon="@drawable/ic_menu_scrub"
+        android:onClick="onOptionScrub"
+        android:showAsAction="ifRoom|withText"
+        android:title="@string/scrub"/>
+    <item
+        android:id="@+id/vacuum"
+        android:icon="@drawable/ic_menu_vac"
+        android:onClick="onOptionVacuum"
+        android:showAsAction="never"
+        android:title="@string/vacuum"/>
+</menu>
